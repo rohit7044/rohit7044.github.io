@@ -89,6 +89,7 @@
         margin-right: 0;}
 
     .contact {
+      padding: 1em;
         position: fixed;
         left: 3em;
         bottom: 2em;
