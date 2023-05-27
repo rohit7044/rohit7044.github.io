@@ -10,7 +10,6 @@ body {
   line-height: 1.6;
   font-family: "Roboto", sans-serif;
   background-color: #000;
-  place-items: center;
 }
 
 .toc {
@@ -64,7 +63,8 @@ body {
   padding: 1em;
   max-width: 800px;
   font-size: 1.2em;
-  position: relative;
+  position: inherit;
+  display: block;
 }
 
 .contents img {
