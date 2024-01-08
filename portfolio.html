@@ -23,10 +23,11 @@
           <li>
             <a href="#projects">Projects</a>
             <ul>
-              <li><a href="#FasTEX">FasTEX</a></li>
-              <li><a href="#3DGANTex">3DGANTex</a></li>
-              <li><a href="#childGAN">ChildGAN</a></li>
-              <li><a href="#bga">Ball Grid Array Reconstruction</a></li>
+                <li><a href="#chatPDF">ChatPDF</a></li>
+                <li><a href="#FasTEX">FasTEX</a></li>
+                <li><a href="#3DGANTex">3DGANTex</a></li>
+                <li><a href="#childGAN">ChildGAN</a></li>
+                <li><a href="#bga">Ball Grid Array Reconstruction</a></li>
             </ul>
           </li>
           <li>
@@ -65,7 +66,7 @@
                     August 2021 - June 2023
                 </p>
                 <p>
-                    <strong>Camellia Institue of Technology </strong> <br>
+                    <strong>Camellia Institute of Technology </strong> <br>
                     Bachelor's in Computer Science <br>
                     July 2014 - July 2018
                     
@@ -146,6 +147,18 @@
         <section id="projects"> 
             <h2>Projects</h2>
         </section>
+        <section id="chatPDF">
+            <h3>chatPDF - Talk to your PDF</h3>
+            <p>
+                Chat with your PDF. Make summary. Ask relevant questions This is a short project I did to explore the LLM and RAG domain.
+                Leveraging the Mistral 7B model, ChatPDF introduces an innovative approach to augment PDF interactivity, incorporating features
+                such as summarization and interactive questioning.
+                To address cold start issues, the project wisely stores data in a Vector Database, ensuring efficient retrieval and utilization.
+                A current drawback in the code lies in its synchronous prompt processing during each iteration,hindering user interaction;
+                an enhancement is needed to make the system asynchronous,allowing users to send multiple prompts without interruptions. <br>
+                GitHub Link <a href="https://github.com/rohit7044/chatPDF">here</a>
+            </p>
+        </section>
         <section id="FasTEX">
             <h3>FasTEX - Fast Text to Texture Generation</h3>
             <p>
@@ -153,8 +166,6 @@
                 It begins with multi-view captures and Blender script-generated maps.
                 Utilizing ControlNet and stable diffusion, we obtain the generated image for a specific camera view. Interpolation and post-processing refine the texture.
                 While this innovation is the market's fastest, it's crucial to acknowledge and address interpolation issues as a key drawback.
-
-
             </p>
         </section>
 
