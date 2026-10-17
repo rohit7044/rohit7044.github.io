@@ -1,0 +1,99 @@
+{
+  "source": "google/GNM neutral template",
+  "asset": "/assets/face.glb",
+  "vertices": 17821,
+  "triangles": 35324,
+  "morph_names": [
+    "jaw_open",
+    "smile",
+    "wide_smile",
+    "pucker",
+    "wink_left"
+  ],
+  "asset_bytes": 2997896,
+  "sha256": "f992e41849cebc2ade569ac19a3376f6a8eb88bf344abb73a542d91ab178b0fc",
+  "upstream_commit": "5cf11d785a38a83597e64ad0b6d15950bcd6b390",
+  "unit_to_metres": 1.0,
+  "source_front": "+z",
+  "coordinate_transform": "right-handed, Y up; optional 180-degree Y rotation; original winding preserved",
+  "bounds_metres": [
+    [
+      -0.12777356803417206,
+      0.06556179374456406,
+      -0.09221039712429047
+    ],
+    [
+      0.127635657787323,
+      0.40711015462875366,
+      0.14650166034698486
+    ]
+  ],
+  "materials": [
+    "skin",
+    "mouth_sock",
+    "gums",
+    "teeth",
+    "tongue",
+    "scleras",
+    "irises",
+    "pupils",
+    "eye_exteriors"
+  ],
+  "part_triangles": {
+    "skin": 24010,
+    "mouth_sock": 810,
+    "gums": 1984,
+    "teeth": 3672,
+    "tongue": 1824,
+    "scleras": 912,
+    "irises": 384,
+    "pupils": 192,
+    "eye_exteriors": 1536
+  },
+  "texture_available": false,
+  "source_uv_available": true,
+  "source_component_names": [
+    "skin",
+    "left_eye",
+    "right_eye",
+    "upper_teeth_and_gums",
+    "lower_teeth_and_gums",
+    "tongue"
+  ],
+  "rights_evidence": "Official pinned Google model card https://huggingface.co/google/gnm-v3/blob/c01e90d298d82301f9fd18f54806be751775cb7c/README.md explicitly licenses model weights Apache-2.0; local preview only",
+  "limitations": [
+    "Untextured full topology retained; UV seams are not exported because no textures are used.",
+    "Material boundaries use majority upstream vertex-group membership.",
+    "Baked joint poses interpolate as morph deltas, not exact continuous joint rotations.",
+    "GNM expressions are not the separate Audio2Motion representation."
+  ],
+  "pose_statistics": {
+    "jaw_open": {
+      "maximum_displacement_metres": 0.014541342854499817,
+      "rms_displacement_metres": 0.002942364662885666,
+      "source": "Official ExpressionSampler.SURPRISE; mean of 16 samples; seed 42"
+    },
+    "smile": {
+      "maximum_displacement_metres": 0.011649048887193203,
+      "rms_displacement_metres": 0.0022729206830263138,
+      "source": "Official ExpressionSampler.HAPPY; mean of 16 samples; seed 42"
+    },
+    "wide_smile": {
+      "maximum_displacement_metres": 0.012444150634109974,
+      "rms_displacement_metres": 0.0023910982999950647,
+      "source": "Official ExpressionSampler.SMILE_WIDE; mean of 16 samples; seed 42"
+    },
+    "pucker": {
+      "maximum_displacement_metres": 0.01345782820135355,
+      "rms_displacement_metres": 0.003305696649476886,
+      "source": "Official ExpressionSampler.PUCKER; mean of 16 samples; seed 42"
+    },
+    "wink_left": {
+      "maximum_displacement_metres": 0.0058462112210690975,
+      "rms_displacement_metres": 0.0013025779044255614,
+      "source": "Official ExpressionSampler.WINK_LEFT; mean of 16 samples; seed 42"
+    }
+  },
+  "model_release": "google/gnm-v3@c01e90d298d82301f9fd18f54806be751775cb7c",
+  "model_sha256": "61d78bbfb4ad8e0b38495804a4caef3214d3df00f8c3f68761e63b41ce3747eb"
+}

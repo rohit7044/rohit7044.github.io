@@ -1,0 +1,3 @@
+GNM Head — Google LLC. https://github.com/google/GNM
+See upstream citation: Ploumpis et al., GNM Head, 2026, arXiv:2607.23687.
+Asset permissions evidence: Official pinned Google model card https://huggingface.co/google/gnm-v3/blob/c01e90d298d82301f9fd18f54806be751775cb7c/README.md explicitly licenses model weights Apache-2.0; local preview only

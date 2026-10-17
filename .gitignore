@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.tools/
+test-results/
+__pycache__/
+*.npz
+*.h5
+*.tsbuildinfo
+gnm-export/
+.idea/
+private/
+rohit_portfolio_phase1_phase2_prototype/

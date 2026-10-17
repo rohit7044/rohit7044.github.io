@@ -1,0 +1,8 @@
+# Offline tools only. No Python inference runs in the browser.
+numpy==2.5.4
+scipy==1.18.1
+absl-py==2.5.1
+etils==1.14.0
+immutabledict==4.3.1
+typeguard==4.6.0
+tensorflow==2.21.0
